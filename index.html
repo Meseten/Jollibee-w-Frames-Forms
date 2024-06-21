@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jollibee - Home</title>
+    <style>
+        body {
+            font-family: Century Gothic, sans-serif;
+            background-color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #E4163D;
+            padding: 10px 20px;
+        }
+        header .logo {
+            max-width: 150px;
+            height: auto;
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        .main-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .main-section h1 {
+            color: #E4163D;
+        }
+        .ads-iframe {
+            width: 100%;
+            height: 1750px;
+            border: 2px solid #ccc;
+			overflow: show;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="C:\Users\Ben\Desktop\HTML Journey\FINAL PROJECT\jblogo.png" alt="Jollibee Logo" class="logo">
+            <nav>
+                <ul>
+				<li><a href="index.html">Home</a></li>
+                    <li><a href="eebilloj.html">Menu</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="main-section">
+                <h1>Welcome to Jollibee</h1>
+				<iframe src="ads.html" class="ads-iframe" scrolling="no"></iframe>
+            </section>
+        </main>
+        <footer>
+            &copy; 2024 Jollibee. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
